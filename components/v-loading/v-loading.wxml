@@ -1,0 +1,34 @@
+<view wx:if="{{show}}" class="{{center?'center':''}}">
+  <view id="loading1" wx:if="{{mode==1}}" class="{{center?'son':''}}">
+    <view class="demo1" style="background:{{bgColor}}"></view>
+    <view class="demo1" style="background:{{bgColor}}"></view>
+    <view class="demo1" style="background:{{bgColor}}"></view>
+    <view class="demo1" style="background:{{bgColor}}"></view>
+    <view class="demo1" style="background:{{bgColor}}"></view>
+  </view>
+
+  <view id="loading2" wx:if="{{mode==2}}" class="{{center?'son':''}}">
+      <view class="demo2" style="background:{{bgColor}}"></view>
+      <view class="demo2" style="background:{{bgColor}}"></view>
+      <view class="demo2" style="background:{{bgColor}}"></view>
+      <view class="demo2" style="background:{{bgColor}}"></view>
+      <view class="demo2" style="background:{{bgColor}}"></view>
+  </view>
+
+  <view id="loading3" wx:if="{{mode==3}}" class="{{center?'son':''}}">
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+      <view class="demo3" style="background:{{bgColor}}"></view>
+  </view>
+
+  <view id="loading5" wx:if="{{mode==4}}" class="{{center?'son':''}}">
+    <view class="demo5" style="background:{{bgColor}}"></view>
+  </view>
+
+</view>
+

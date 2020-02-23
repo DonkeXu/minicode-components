@@ -1,0 +1,9 @@
+<!-- <view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view> -->
+
+<v-loading></v-loading>
+
+<!-- loading组件 -->
+<v-loading mode="1" bgColor="red" left="100" top="200" show="{{show}}"></v-loading>
+<v-loading mode="2" show="{{!show}}"></v-loading>
+<v-loading mode="3" center="{{false}}"></v-loading>
+<v-loading mode="4" center="{{true}}"></v-loading>
